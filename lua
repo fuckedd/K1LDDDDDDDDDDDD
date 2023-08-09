@@ -6,3 +6,5 @@ game.Players.PlayerAdded:Connect(function(player)
         end
     end)
 end)
+
+game:GetService("Players").LocalPlayer.Chatted:Connect(onChatted)
